@@ -4,7 +4,6 @@
 
 ```sh
 git status
-´´´
 ```
 
 
