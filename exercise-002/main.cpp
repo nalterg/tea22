@@ -49,5 +49,9 @@ auto main(int argc, char **argv) -> int
     doSomethingStatic();
     doSomethingStatic();
     doSomethingStatic();
+
+
+    fmt::print("The value of foo {} address of foo: {}\n", foo, fmt::ptr(&foo));
+
     return 0; /* exit gracefully*/
 }
